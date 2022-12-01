@@ -1,0 +1,40 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app.7c3c19f8.js",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.f5e99bcb.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/About.svelte",
+      "resources/js/Pages/Home.svelte"
+    ]
+  },
+  "resources/js/Pages/About.svelte": {
+    "file": "assets/About.2d255c69.js",
+    "src": "resources/js/Pages/About.svelte",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_link.d8a7b6f1.js"
+    ]
+  },
+  "_link.d8a7b6f1.js": {
+    "file": "assets/link.d8a7b6f1.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Home.svelte": {
+    "file": "assets/Home.60e945e6.js",
+    "src": "resources/js/Pages/Home.svelte",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_link.d8a7b6f1.js"
+    ]
+  }
+}
