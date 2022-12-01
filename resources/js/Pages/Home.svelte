@@ -1,11 +1,12 @@
 <script>
     import { inertia, Link } from "@inertiajs/inertia-svelte";
+    import Layout from "./Layout.svelte";
 
     export let user;
 </script>
 
-<a href="/" use:inertia>Home</a>
-<a href="/about" use:inertia>About</a>
+<Layout>
 <h1 class="text-3xl font-bold underline">
     hello {user}, from svelte home
 </h1>
+</Layout>

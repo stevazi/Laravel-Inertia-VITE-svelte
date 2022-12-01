@@ -21,7 +21,7 @@
         </style>
         @inertiaHead
     </head>
-    <body class="antialiased">
+    <body>
         @inertia
     </body>
 </html>
